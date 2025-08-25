@@ -1,0 +1,10 @@
+:root {
+  font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+}

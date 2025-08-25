@@ -1,0 +1,4 @@
+.mockup {
+  background-image: radial-gradient(40% 60% at 30% 30%, rgba(0,0,0,0.05), transparent),
+    linear-gradient(135deg, rgba(99,102,241,.2), rgba(56,189,248,.2));
+}
