@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <div class="logo-placeholder">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <span class="logo-text">Brand</span>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li>
+                    <a href="#" class="nav-link" data-tooltip="Home">
+                        <i class="fas fa-home"></i>
+                        <span class="link-text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link" data-tooltip="Profile">
+                        <i class="fas fa-user"></i>
+                        <span class="link-text">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link" data-tooltip="Analytics">
+                        <i class="fas fa-chart-bar"></i>
+                        <span class="link-text">Analytics</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Toggle Button -->
+            <button class="toggle-btn" id="toggleBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h1>Welcome to Dashboard</h1>
+                <p>This is the main content area. The sidebar can be toggled using the button.</p>
+            </header>
+            
+            <div class="content">
+                <div class="card">
+                    <h2>Feature 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card">
+                    <h2>Feature 2</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="card">
+                    <h2>Feature 3</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
