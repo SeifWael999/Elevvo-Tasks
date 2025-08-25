@@ -92,7 +92,7 @@ function App() {
                 <div className="card h-100">
                   <div className="card-body">
                     <h3 className="h5">Secure by default</h3>
-                    <p className="text-secondary mb-0">SSO, audit logs, encryption in transit and at rest.</p>
+                    <p className="text-secondary mb-0">Secure by default with SSO, audit logs, encryption in transit and at rest.</p>
                   </div>
                 </div>
               </div>
@@ -104,9 +104,9 @@ function App() {
           <div className="container">
             <h2 className="h1 mb-4">Loved by teams</h2>
             <div className="row g-3 row-cols-1 row-cols-md-3">
-              <div className="col"><blockquote className="blockquote p-3 bg-body rounded border h-100">“We shipped in weeks, not months.” <footer className="blockquote-footer mt-2">Maya, PM</footer></blockquote></div>
-              <div className="col"><blockquote className="blockquote p-3 bg-body rounded border h-100">“The insights are spot on.” <footer className="blockquote-footer mt-2">Jorge, Founder</footer></blockquote></div>
-              <div className="col"><blockquote className="blockquote p-3 bg-body rounded border h-100">“Our growth doubled.” <footer className="blockquote-footer mt-2">Lin, Marketing</footer></blockquote></div>
+              <div className="col"><blockquote className="blockquote p-3 bg-body rounded border h-100">“We shipped in weeks, not months.” <footer className="blockquote-footer mt-2">Lily</footer></blockquote></div>
+              <div className="col"><blockquote className="blockquote p-3 bg-body rounded border h-100">“The insights are spot on.” <footer className="blockquote-footer mt-2">Colin</footer></blockquote></div>
+              <div className="col"><blockquote className="blockquote p-3 bg-body rounded border h-100">“Our growth doubled.” <footer className="blockquote-footer mt-2">John</footer></blockquote></div>
             </div>
           </div>
         </section>
